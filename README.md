@@ -25,3 +25,14 @@ Visual Studio 2017
 ### 게임의 흐름
 Intro > Main Menu > Introducing Boss > Battle > Inter Stage > Introducing Boss > Battle > Inter Stage ... 로 기획하였나, 현재 구현은 한 개의 레벨 데이터만 넣어 뒀기 때문에 Battle 종료까지 확인할 수 있습니다. Inter Stage에서는 플레이어의 스탯을 업그레이드할 수 있는 메뉴를 준비할 예정 입니다.</br>
 
+## 프로젝트 구조
+### 클래스 설명
+**ACameraDirector** - 레벨에 배치된 여러개의 카메라 사이를 일정 시간 간격으로 전환하여 보스를 여러가지 각도로 보여줍니다.</br>
+**AGamePlayGameMode** - 인 게임 플레이 중 메뉴의 전환을 담당합니다.</br>
+**AGamePlayGameState** - 인 게임 플레이 중 게임 승리, 패배를 판단하기 위한 데이터를 다룹니다.</br>
+**AGamePlayPlayerController** - 이 클래스에서 실질적인 인 게임 진행을 담당합니다. 노트의 업데이트 및 히트 판정을 합니다.</br>
+**USMGameInstance** - 전체 게임 플로우를 관리합니다. 전역적으로 사용될 데이터를 가지고 있습니다.</br>
+**FLevelDataManager** - LevelData.xml 파일을 파싱해서 데이터를 보관합니다.</br>
+### 블루프린트 클래스 설명
+**BP_MainMenu** - Main Menu 플로우에서 보여줄 UI 입니다. 시작 버튼과 종료 버튼이 있습니다.</br>
+**BP_GamePlay** - Battle 플로우에서 보여줄 UI 입니다. C++ 클래스로부터 데이터를 가져와서 화면에 표시합니다.</br>
