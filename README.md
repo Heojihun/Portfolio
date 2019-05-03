@@ -36,3 +36,8 @@ Intro > Main Menu > Introducing Boss > Battle > Inter Stage > Introducing Boss >
 ### 블루프린트 클래스 설명
 **BP_MainMenu** - Main Menu 플로우에서 보여줄 UI 입니다. 시작 버튼과 종료 버튼이 있습니다.</br>
 **BP_GamePlay** - Battle 플로우에서 보여줄 UI 입니다. C++ 클래스로부터 데이터를 가져와서 화면에 표시합니다.</br>
+
+## 프로젝트를 진행하면서 중요하게 생각한 것
+C++ 코드는 게임의 데이터만 다루고, 뷰포트에 그려지는 UI나 게임 모델의 상태를 변경하는 것은 블루프린트에서 진행했습니다.</br>
+언리얼 엔진 4 문서에 있는 코딩 표준을 따르려고 노력했습니다.</br>
+언리얼 C++이 제공하는 기능들을 적극적으로 사용하려고 했습니다.</br>
