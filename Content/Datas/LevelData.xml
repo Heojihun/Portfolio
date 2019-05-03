@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Data>
+	<Level LevelName="GrassLands_01" BossIndex="0" BossHealth="500" BossAttackPower="1">
+		<NotePhase BossHealthRate="1.0" NoteSpeed="22.0">
+			<NotePattern Type="0" SpawnTime="0.5" />
+			<NotePattern Type="0" SpawnTime="1.5" />
+			<NotePattern Type="1" SpawnTime="2.5" />
+			<NotePattern Type="0" SpawnTime="3.5" />
+			<NotePattern Type="0" SpawnTime="5.0" />
+			<NotePattern Type="1" SpawnTime="6.0" />
+			<NotePattern Type="0" SpawnTime="7.5" />
+			<NotePattern Type="0" SpawnTime="8.5" />
+			<NotePattern Type="1" SpawnTime="9.5" />
+			<NotePattern Type="0" SpawnTime="11.0" />
+			<NotePattern Type="0" SpawnTime="12.0" />
+			<NotePattern Type="1" SpawnTime="13.5" />
+			<NotePattern Type="0" SpawnTime="15.0" />
+			<NotePattern Type="0" SpawnTime="16.0" />
+			<NotePattern Type="1" SpawnTime="17.0" />
+			<NotePattern Type="1" SpawnTime="18.0" />
+		</NotePhase>
+		<NotePhase BossHealthRate="0.5" NoteSpeed="26.0">
+			<NotePattern Type="0" SpawnTime="0.5" />
+			<NotePattern Type="0" SpawnTime="1.5" />
+			<NotePattern Type="0" SpawnTime="2.5" />
+			<NotePattern Type="0" SpawnTime="3.5" />
+			<NotePattern Type="1" SpawnTime="5.0" />
+			<NotePattern Type="1" SpawnTime="6.0" />
+			<NotePattern Type="0" SpawnTime="7.5" />
+			<NotePattern Type="0" SpawnTime="8.5" />
+			<NotePattern Type="0" SpawnTime="9.5" />
+			<NotePattern Type="0" SpawnTime="11.0" />
+			<NotePattern Type="1" SpawnTime="12.0" />
+			<NotePattern Type="1" SpawnTime="13.5" />
+			<NotePattern Type="0" SpawnTime="15.0" />
+			<NotePattern Type="0" SpawnTime="16.0" />
+			<NotePattern Type="1" SpawnTime="17.0" />
+			<NotePattern Type="1" SpawnTime="18.0" />
+			<NotePattern Type="1" SpawnTime="17.0" />
+			<NotePattern Type="1" SpawnTime="18.0" />
+		</NotePhase>
+		<NotePhase BossHealthRate="0.2" NoteSpeed="30.0">
+			<NotePattern Type="0" SpawnTime="0.5" />
+			<NotePattern Type="0" SpawnTime="1.5" />
+			<NotePattern Type="1" SpawnTime="2.5" />
+			<NotePattern Type="0" SpawnTime="3.5" />
+			<NotePattern Type="0" SpawnTime="5.0" />
+			<NotePattern Type="1" SpawnTime="6.0" />
+			<NotePattern Type="0" SpawnTime="7.5" />
+			<NotePattern Type="0" SpawnTime="8.5" />
+			<NotePattern Type="1" SpawnTime="9.5" />
+			<NotePattern Type="0" SpawnTime="11.0" />
+			<NotePattern Type="0" SpawnTime="12.0" />
+			<NotePattern Type="1" SpawnTime="13.5" />
+			<NotePattern Type="0" SpawnTime="15.0" />
+			<NotePattern Type="0" SpawnTime="16.0" />
+			<NotePattern Type="1" SpawnTime="17.0" />
+			<NotePattern Type="1" SpawnTime="18.0" />
+		</NotePhase>
+	</Level>
+</Data>
+	
