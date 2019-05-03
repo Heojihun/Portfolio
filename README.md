@@ -16,3 +16,16 @@ Visual Studio 2017
 
 ### 액션 - Guard
 파란 노트가 검과 교차되기 전에 마우스를 클릭한 상태에서 노트가 지나가도록 합니다.
+
+### 판정
+**Attack 노트**의 경우 검의 최대 범위의 30% 안에 들어오면 Excelent, 50% 안에 들어오면 Great, 전체 범위 안에 들어오면 Good 입니다.</br>
+판정을 할 때, 범위에 들어온 노트가 없다면 Miss 판정이 발생합니다.</br>
+Excelent나 Great 판정을 받으면 검의 파워가 증가하여 더 높은 데미지를 보스에게 입힐 수 있습니다.</br>
+단, Miss 판정을 기록하게 되면 검의 파워가 초기화 됩니다.</br>
+**Guard 노트**의 경우에는 노트와 검이 교차할 때, 마우스 버튼이 눌려 있는 상태라면 Guard 판정이 발생하고, 눌려 있지 않았다면 Damaged 판정이 발생하여 플레이어 체력이 줄게 됩니다.</br>
+
+### 게임의 흐름
+Intro > Main Menu > Introducing Boss > Battle > Inter Stage > Introducing Boss > Battle > Inter Stage ...
+로 기획하였나, 현재 구현은 한 개의 레벨 데이터만 넣어 뒀기 때문에 Battle 종료까지 확인할 수 있습니다.
+Inter Stage에서는 플레이어의 스탯을 업그레이드할 수 있는 메뉴를 준비할 예정 입니다.
+
